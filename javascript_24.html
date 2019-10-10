@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //삼항 연산자
+        // 조건문 ? 표현문1 : 표현문2
+        //조건문은 반드시 결과가 참과 거짓으로 반환되어야 함. 그리고 그결과가 참이면 표현문1, 거짓이면 표현문2
+        
+        var condition = 5 > 10;
+        condition ? console.log('Left') : console.log('Right');
+
+        var result = condition ? (
+            console.log("삼항 연산식의 첫 번째 표현식 입니다."),
+            "표현식1"
+        ) : (
+            console.log("삼항 연산식의 두 번째 표현식 입니다."),
+            "표현식2"
+        );
+        console.log(result);
+    </script>
+</body>
+</html>
